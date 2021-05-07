@@ -798,11 +798,18 @@ h3 {
 .footer .popup__body {
   width: 60%;
   max-width: 874px;
-  height: 94%;
+  padding-bottom: 30px;
   max-height: 887px;
   margin: 1% auto 0 auto;
   background: #0F113A;
   text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .footer .popup__body {
+    margin: auto;
+    max-height: 600px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -869,10 +876,21 @@ h3 {
   font-size: 48px;
   font-weight: 500;
   line-height: 68px;
-  width: 77%;
+  max-width: 639px;
   margin: 7% auto 0 auto;
   padding: 17px 32px;
   border: 5px solid rgba(244, 229, 172, 0.87);
+}
+
+@media (max-width: 1200px) {
+  .footer .popup__button {
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 25px;
+    padding: 10px 19px;
+    margin-top: 15%;
+    width: 77%;
+  }
 }
 
 @media (max-width: 576px) {
