@@ -12,8 +12,9 @@ const comment=new Swiper('.comment-slider', {
 			slidesPerView:1,
 			slidesPerGroup:1,
 		},
-		992:{
+		767:{
 			slidesPerView:2,
+			slidesPerGroup:2,
 		},
 	},
 });
