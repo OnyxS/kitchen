@@ -67,6 +67,30 @@ html::-webkit-scrollbar-thumb:active {
   }
 }
 
+.bottom__line {
+  display: inline-block;
+  position: relative;
+}
+
+.bottom__line:after {
+  display: block;
+  content: "";
+  background-color: white;
+  height: 1px;
+  width: 0%;
+  left: 50%;
+  position: absolute;
+  -webkit-transition: width 0.3s ease-in-out;
+  -moz--transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.bottom__line:hover:after, .bottom__line:focus:after {
+  width: 100%;
+}
+
 h1 {
   font-weight: 700;
   font-size: 72px;
