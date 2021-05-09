@@ -78,13 +78,13 @@ html::-webkit-scrollbar-thumb:active {
   background-color: white;
   height: 1px;
   width: 0%;
-  left: 50%;
+  left: 0%;
   position: absolute;
   -webkit-transition: width 0.3s ease-in-out;
   -moz--transition: width 0.3s ease-in-out;
   transition: width 0.3s ease-in-out;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+  transform: translateX(0%);
 }
 
 .bottom__line:hover:after, .bottom__line:focus:after {
