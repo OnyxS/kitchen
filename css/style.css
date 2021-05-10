@@ -91,6 +91,16 @@ html::-webkit-scrollbar-thumb:active {
   width: 100%;
 }
 
+.button__hover {
+  -webkit-transition: 0.75s;
+  transition: 0.75s;
+}
+
+.button__hover:hover, .button__hover:focus {
+  -webkit-box-shadow: inset 0 0 0 2em rgba(244, 229, 172, 0.87);
+          box-shadow: inset 0 0 0 2em rgba(244, 229, 172, 0.87);
+}
+
 h1 {
   font-weight: 700;
   font-size: 72px;
