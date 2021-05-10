@@ -240,8 +240,8 @@ h3 {
 }
 
 .about {
-  background: url(../img/lime__top.png) no-repeat top left,
-    url(../img/lime__bottom.png) no-repeat bottom right,
+  background: url(../img/lime__top.webp) no-repeat top left,
+    url(../img/lime__bottom.webp) no-repeat bottom right,
     linear-gradient(0deg, #0f113a 0%, #050615 49.48%, rgba(0, 0, 0, 0.5) 100%),
     #000000;
   padding-bottom: 160px;
@@ -252,8 +252,8 @@ h3 {
     padding-bottom: 0;
   }
   @media (max-width: 576px) {
-    background: url(../img/lime-top-mob.png) no-repeat top left,
-      url(../img/lime-bottom-mob.png) no-repeat bottom right,
+    background: url(../img/lime-top-mob.webp) no-repeat top left,
+      url(../img/lime-bottom-mob.webp) no-repeat bottom right,
       linear-gradient(
         180deg,
         #000000 0%,
@@ -434,8 +434,8 @@ h3 {
 
 .footer {
   line-height: 34.2px;
-  background: url(../img/footer-lime.png) no-repeat top right,
-    url(../img/smoothie.png) no-repeat bottom left,
+  background: url(../img/footer-lime.webp) no-repeat top right,
+    url(../img/smoothie.webp) no-repeat bottom left,
     linear-gradient(
       242.87deg,
       #0f113a -0.45%,
@@ -450,8 +450,8 @@ h3 {
       flex-direction: column-reverse;
     }
     @media (max-width: 576px) {
-      background: url(../img/lime-footer-mob.png) no-repeat top right,
-        url(../img/smoothie-footer-mob.png) no-repeat bottom left,
+      background: url(../img/lime-footer-mob.webp) no-repeat top right,
+        url(../img/smoothie-footer-mob.webp) no-repeat bottom left,
         linear-gradient(192.04deg, #0f113a 0%, #020206 70.83%, #000000 100%);
     }
   }
@@ -871,7 +871,7 @@ h3 {
 
 .works {
   background: linear-gradient(#000229e5),
-    url(../img/works-bg.png) no-repeat center;
+    url(../img/works-bg.webp) no-repeat center;
   background-size: cover;
   &__title {
     margin: 0;
