@@ -133,7 +133,7 @@ h3 {
 }
 
 .header {
-  background: linear-gradient(116.69deg, #000000 0%, rgba(0, 0, 0, 0.68) 51.04%, rgba(0, 0, 0, 0) 100%), url(../img/header__bg.jpg) no-repeat;
+  background: linear-gradient(116.69deg, #000000 0%, rgba(0, 0, 0, 0.68) 51.04%, rgba(0, 0, 0, 0) 100%), url(../img/header__bg.webp) no-repeat;
   background-size: cover;
 }
 
@@ -955,8 +955,8 @@ h3 {
 }
 
 .comment {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 2, 41, 0.85)), to(rgba(0, 2, 41, 0.85))), url(../img/comment__bg.jpg) no-repeat center;
-  background: linear-gradient(180deg, rgba(0, 2, 41, 0.85) 0%, rgba(0, 2, 41, 0.85) 100%), url(../img/comment__bg.jpg) no-repeat center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 2, 41, 0.85)), to(rgba(0, 2, 41, 0.85))), url(../img/comment__bg.webp) no-repeat center;
+  background: linear-gradient(180deg, rgba(0, 2, 41, 0.85) 0%, rgba(0, 2, 41, 0.85) 100%), url(../img/comment__bg.webp) no-repeat center;
   background-size: cover;
 }
 
