@@ -19,10 +19,22 @@ const comment=new Swiper('.comment-slider', {
 	},
 });
 
+
 const works=new Swiper('.works-slider',{
+	
 	navigation:{
 		nextEl:'.swiper-button-next',
 		prevEl:'.swiper-button-prev',
+		
+	},
+});
+
+const worksMob=new Swiper('.works-slider-mob',{
+	
+	pagination:{
+		el:'.swiper-pagination',
+		clickable:true,
+		slidesPerView: 'auto',
 	},
 });
 
@@ -126,3 +138,4 @@ document.addEventListener('keydown',function(e){
 		Element.prototype.msMathesSelector;
 	}
 })();
+
