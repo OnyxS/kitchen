@@ -12,6 +12,7 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
   </head>
   <body>
     <header class="header">
@@ -123,92 +124,105 @@
         <div class="works-slider swiper-container">
           <div class="works-slider__wrapper swiper-wrapper">
             <div class="works-slider__slide swiper-slide">
-              <img
-                src="img/image1.webp"
-                alt=""
-                class="works-slider__slide-img"
-              />
-              <img
-                src="img/image2.webp"
-                alt=""
-                class="works-slider__slide-img"
-              />
-              <img
-                src="img/image3.webp"
-                alt=""
-                class="works-slider__slide-img"
-              />
-              <img
-                src="img/image4.webp"
-                alt=""
-                class="works-slider__slide-img"
-              />
-              <img
-                src="img/image5.webp"
-                alt=""
-                class="works-slider__slide-img"
-              />
-              <img
-                src="img/image6.webp"
-                alt=""
-                class="works-slider__slide-img"
-              />
-              <img
-                src="img/image7.webp"
-                alt=""
-                class="works-slider__slide-img"
-              />
-              <img
-                src="img/image8.webp"
-                alt=""
-                class="works-slider__slide-img"
-              />
-            </div>
-            <div class="works-slider__slide swiper-slide">
-              <img
-                src="img/image1.webp"
-                alt=""
-                class="works-slider__slide-img"
-              />
-              <img
-                src="img/image2.webp"
-                alt=""
-                class="works-slider__slide-img"
-              />
-              <img
-                src="img/image3.webp"
-                alt=""
-                class="works-slider__slide-img"
-              />
-              <img
-                src="img/image4.webp"
-                alt=""
-                class="works-slider__slide-img"
-              />
-              <img
-                src="img/image5.webp"
-                alt=""
-                class="works-slider__slide-img"
-              />
-              <img
-                src="img/image6.webp"
-                alt=""
-                class="works-slider__slide-img"
-              />
-              <img
-                src="img/image7.webp"
-                alt=""
-                class="works-slider__slide-img"
-              />
-              <img
-                src="img/image8.webp"
-                alt=""
-                class="works-slider__slide-img"
-              />
+              <div class="grid-container">
+                <div class="demo item">
+                  <a
+                    class="href__img"
+                    href="img/image1.webp"
+                    data-lightbox="example-1"
+                    ><img data-lightbox="image1" src="img/image8.webp" alt=""
+                  /></a>
+                </div>
+                <div class="demo1 item">
+                  <a
+                    class="href__img"
+                    href="img/image1.webp"
+                    data-lightbox="example-2"
+                    ><img src="img/image7.webp" alt=""
+                  /></a>
+                </div>
+                <div class="demo2 item">
+                  <a
+                    class="href__img"
+                    href="img/image1.webp"
+                    data-lightbox="example-3"
+                    ><img src="img/image4.webp" alt=""
+                  /></a>
+                </div>
+                <div class="demo3 item">
+                  <a
+                    class="href__img"
+                    href="img/image1.webp"
+                    data-lightbox="example-4"
+                    ><img src="img/image2.webp" alt=""
+                  /></a>
+                </div>
+                <div class="demo4 item">
+                  <a
+                    class="href__img"
+                    href="img/image1.webp"
+                    data-lightbox="example-5"
+                    ><img src="img/image6.webp" alt=""
+                  /></a>
+                </div>
+                <div class="demo5 item">
+                  <a
+                    class="href__img"
+                    href="img/image1.webp"
+                    data-lightbox="example-6"
+                    ><img src="img/image3.webp" alt=""
+                  /></a>
+                </div>
+                <div class="demo6 item">
+                  <a
+                    class="href__img"
+                    href="img/image1.webp"
+                    data-lightbox="example-7"
+                    ><img src="img/image5.webp" alt=""
+                  /></a>
+                </div>
+                <div class="demo7 item">
+                  <a
+                    class="href__img"
+                    href="img/image1.webp"
+                    data-lightbox="example-8"
+                    ><img src="img/image1.webp" alt=""
+                  /></a>
+                </div>
+              </div>
             </div>
           </div>
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
+        </div>
+        <div class="works-slider-mob swiper-container">
+          <div class="works-slider-mob__wrapper swiper-wrapper">
+            <div class="works-slider-mob__slide swiper-slide">
+              <div class="works__img-box">
+                <img src="img/image1.webp" alt="" class="works__img" />
+                <img src="img/image2.webp" alt="" class="works__img" />
+              </div>
+            </div>
+            <div class="works-slider__slide swiper-slide">
+              <div class="works__img-box">
+                <img src="img/image1.webp" alt="" class="works__img" />
+                <img src="img/image2.webp" alt="" class="works__img" />
+              </div>
+            </div>
+            <div class="works-slider__slide swiper-slide">
+              <div class="works__img-box">
+                <img src="img/image1.webp" alt="" class="works__img" />
+                <img src="img/image2.webp" alt="" class="works__img" />
+              </div>
+            </div>
+            <div class="works-slider__slide swiper-slide">
+              <div class="works__img-box">
+                <img src="img/image1.webp" alt="" class="works__img" />
+                <img src="img/image2.webp" alt="" class="works__img" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
         </div>
       </div>
     </section>
@@ -252,7 +266,11 @@
                       class="slide__element-room"
                     />
                   </div>
-                  <img src="img/room3.webp" alt="" class="slide__element-room" />
+                  <img
+                    src="img/room3.webp"
+                    alt=""
+                    class="slide__element-room"
+                  />
                 </div>
               </div>
             </div>
@@ -261,7 +279,11 @@
               <div class="slide__line"></div>
               <div class="slide__element">
                 <div class="slide__element-header right">
-                  <img class="slide__element-people" src="img/man.webp" alt="" />
+                  <img
+                    class="slide__element-people"
+                    src="img/man.webp"
+                    alt=""
+                  />
                   <p class="slide__element-text">
                     Nunc pulvinar sapien et ligula ullamcorper malesuada proin
                     libero nunc consequat interdum varius sit amet mattis
@@ -288,7 +310,11 @@
                       class="slide__element-room"
                     />
                   </div>
-                  <img src="img/room6.webp" alt="" class="slide__element-room" />
+                  <img
+                    src="img/room6.webp"
+                    alt=""
+                    class="slide__element-room"
+                  />
                 </div>
               </div>
             </div>
@@ -326,7 +352,11 @@
                       class="slide__element-room"
                     />
                   </div>
-                  <img src="img/room3.webp" alt="" class="slide__element-room" />
+                  <img
+                    src="img/room3.webp"
+                    alt=""
+                    class="slide__element-room"
+                  />
                 </div>
               </div>
             </div>
@@ -335,7 +365,11 @@
               <div class="slide__line"></div>
               <div class="slide__element">
                 <div class="slide__element-header right">
-                  <img class="slide__element-people" src="img/man.webp" alt="" />
+                  <img
+                    class="slide__element-people"
+                    src="img/man.webp"
+                    alt=""
+                  />
                   <p class="slide__element-text">
                     Nunc pulvinar sapien et ligula ullamcorper malesuada proin
                     libero nunc consequat interdum varius sit amet mattis
@@ -362,7 +396,11 @@
                       class="slide__element-room"
                     />
                   </div>
-                  <img src="img/room6.webp" alt="" class="slide__element-room" />
+                  <img
+                    src="img/room6.webp"
+                    alt=""
+                    class="slide__element-room"
+                  />
                 </div>
               </div>
             </div>
@@ -443,5 +481,6 @@
     </footer>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/lightbox2-2.11.3/dist/js/lightbox-plus-jquery.min.js"></script>
   </body>
 </html>
