@@ -1457,7 +1457,7 @@ h3 {
 #lightbox .lb-outerContainer .lb-container img {
   width: 100% !important;
   height: auto !important;
-  max-height: 80vh;
+  max-height: 90vh;
   -o-object-fit: cover;
      object-fit: cover;
 }
