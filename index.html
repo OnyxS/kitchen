@@ -240,17 +240,26 @@
                     src="img/girl.webp"
                     alt=""
                   />
-                  <p class="slide__element-text left-text">
+
+                  <p
+                    id="slide__element-text"
+                    class="slide__element-text left-text"
+                  >
                     Nunc pulvinar sapien et ligula ullamcorper malesuada proin
-                    libero nunc consequat interdum varius sit amet mattis
-                    vulputate enim nulla aliquet porttitor lacus luctus accumsan
-                    tortor posuere ac ut consequat semper viverra nam libero
-                    justo laoreet sit amet cursus sit amet dictum sit amet justo
-                    donec enim diam vulputate ut pharetra sit amet aliquam id
-                    diam maecenas ultricies mi eget mauris
+                    libero nunc
+                    conлватмтовыатдлсьалдсьужксжукьлсжьжлаьсламтуоксльвлжкомсьлжфьэщклусщькьсуклсэжукласмклсщклщхалщклсщлфщлащкласщлвлмщкулащклхай
+                    алсщлкщалэщлащклущзлэзалщмукэмшзоэфшмокосмщзоуфзщкоэсшзоашмзоуфшомшзскзшфозкsequat
+                    interdum varius sit amet mattis vulputate enim nulla aliquet
+                    porttitor lacus luctus accumsan tortor posuere ac ut
+                    consequat semper viverra nam libero justo laoreet sit amet
+                    cursus sit amet dictum sit amet justo donec enim diam
+                    vulputate ut pharetra sit amet aliquam id diam maecenas
+                    ultricies mi eget mauris
                   </p>
                 </div>
-                <a href="" class="slide__element-next left-text bottom__line"
+                <a
+                  href="javascript:void(0);"
+                  class="slide__element-next left-text bottom__line"
                   >Читать далее</a
                 >
                 <div class="slide__element-rooms">
@@ -284,6 +293,7 @@
                     src="img/man.webp"
                     alt=""
                   />
+
                   <p class="slide__element-text">
                     Nunc pulvinar sapien et ligula ullamcorper malesuada proin
                     libero nunc consequat interdum varius sit amet mattis
@@ -479,8 +489,18 @@
         </div>
       </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/readmore.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/lightbox2-2.11.3/dist/js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/lightbox2-2.11.3/dist/js/lightbox.min.js"></script>
+    <script>
+      $(".slide__element-text").readmore({
+        embedCSS: false,
+        maxHeight: 184,
+        moreLink: '<a href="#">Подробнее</a>',
+        lessLink: '<a href="#">Скрыть</a>',
+      });
+    </script>
   </body>
 </html>

@@ -298,8 +298,8 @@ h3 {
 }
 
 .about {
-  background: url(../img/lime__top.webp) no-repeat top left, url(../img/lime__bottom.webp) no-repeat bottom right, -webkit-gradient(linear, left bottom, left top, from(#0f113a), color-stop(49.48%, #050615), to(rgba(0, 0, 0, 0.5))), #000000;
-  background: url(../img/lime__top.webp) no-repeat top left, url(../img/lime__bottom.webp) no-repeat bottom right, linear-gradient(0deg, #0f113a 0%, #050615 49.48%, rgba(0, 0, 0, 0.5) 100%), #000000;
+  background: url(../img/lime__top.webp) no-repeat top left, url(../img/lime__bottom.webp) no-repeat 105% 105%, -webkit-gradient(linear, left bottom, left top, from(#0f113a), color-stop(49.48%, #050615), to(rgba(0, 0, 0, 0.5))), #000000;
+  background: url(../img/lime__top.webp) no-repeat top left, url(../img/lime__bottom.webp) no-repeat 105% 105%, linear-gradient(0deg, #0f113a 0%, #050615 49.48%, rgba(0, 0, 0, 0.5) 100%), #000000;
   padding-bottom: 160px;
 }
 
@@ -317,8 +317,8 @@ h3 {
 
 @media (max-width: 576px) {
   .about {
-    background: url(../img/lime-top-mob.webp) no-repeat top left, url(../img/lime-bottom-mob.webp) no-repeat bottom right, -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(62.5%, #131549), to(rgba(15, 17, 58, 0.87)));
-    background: url(../img/lime-top-mob.webp) no-repeat top left, url(../img/lime-bottom-mob.webp) no-repeat bottom right, linear-gradient(180deg, #000000 0%, #131549 62.5%, rgba(15, 17, 58, 0.87) 100%);
+    background: url(../img/lime-top-mob.webp) no-repeat top left, url(../img/lime__bottom-mob.webp) no-repeat 200% 110%, -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(62.5%, #131549), to(rgba(15, 17, 58, 0.87)));
+    background: url(../img/lime-top-mob.webp) no-repeat top left, url(../img/lime__bottom-mob.webp) no-repeat 200% 110%, linear-gradient(180deg, #000000 0%, #131549 62.5%, rgba(15, 17, 58, 0.87) 100%);
   }
 }
 
@@ -1063,6 +1063,7 @@ h3 {
 }
 
 .comment .comment-slider__slide .slide__element-text {
+  overflow: hidden;
   max-width: 506px;
   font-size: 18px;
   font-style: italic;
@@ -1225,6 +1226,10 @@ h3 {
 .comment .comment-slider .swiper-pagination .swiper-pagination-bullet-active {
   color: #fff;
   background: rgba(172, 160, 113, 0.87);
+}
+
+.slide__element-text {
+  height: auto;
 }
 
 .works {
@@ -1441,4 +1446,13 @@ h3 {
 .popup__img {
   width: 1400px;
   margin: 110px;
+}
+
+#lightbox .lb-outerContainer {
+  width: 70% !important;
+}
+
+#lightbox .lb-outerContainer .lb-container img {
+  width: 100% !important;
+  height: auto !important;
 }

@@ -139,3 +139,5 @@ document.addEventListener('keydown',function(e){
 	}
 })();
 
+var next=('.')
+

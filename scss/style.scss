@@ -241,7 +241,7 @@ h3 {
 
 .about {
   background: url(../img/lime__top.webp) no-repeat top left,
-    url(../img/lime__bottom.webp) no-repeat bottom right,
+    url(../img/lime__bottom.webp) no-repeat 105% 105%,
     linear-gradient(0deg, #0f113a 0%, #050615 49.48%, rgba(0, 0, 0, 0.5) 100%),
     #000000;
   padding-bottom: 160px;
@@ -253,7 +253,7 @@ h3 {
   }
   @media (max-width: 576px) {
     background: url(../img/lime-top-mob.webp) no-repeat top left,
-      url(../img/lime-bottom-mob.webp) no-repeat bottom right,
+      url(../img/lime__bottom-mob.webp) no-repeat 200% 110%,
       linear-gradient(
         180deg,
         #000000 0%,
@@ -766,11 +766,13 @@ h3 {
           }
         }
         &-text {
+          overflow: hidden;
           max-width: 506px;
           font-size: 18px;
           font-style: italic;
           line-height: 25.65px;
           margin: 103px 0 0 0;
+
           @media (max-width: 992px) {
             margin-top: 0;
           }
@@ -867,6 +869,10 @@ h3 {
       }
     }
   }
+}
+
+.slide__element-text {
+  height: auto;
 }
 
 .works {
@@ -1020,4 +1026,16 @@ h3 {
 .popup__img {
   width: 1400px;
   margin: 110px;
+}
+
+#lightbox {
+  .lb-outerContainer {
+    width: 70% !important;
+    .lb-container {
+      img {
+        width: 100% !important;
+        height: auto !important;
+      }
+    }
+  }
 }
