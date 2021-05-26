@@ -138,6 +138,3 @@ document.addEventListener('keydown',function(e){
 		Element.prototype.msMathesSelector;
 	}
 })();
-
-var next=('.')
-
